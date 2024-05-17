@@ -1,0 +1,38 @@
+Sign Language Detection Project
+Introduction
+Welcome to the Sign Language Detection project! This project aims to develop a machine learning model that can accurately detect and interpret sign language gestures. The goal is to create a tool that can assist in bridging the communication gap for individuals who use sign language. The project utilizes computer vision techniques and deep learning algorithms to recognize and classify different sign language gestures from video frames or images.
+
+Steps to Run the Project:-
+Prerequisites:-
+Before you begin, ensure you have the following installed:
+
+Python 3.x
+Jupyter Notebook
+Required Python libraries
+-TensorFlow
+-MediaPipe
+-matplotlib
+-numpy
+-cv2
+-scikit-learn
+-pyttsx3
+
+Running the Jupyter Notebook:-
+Start Jupyter Notebook
+-jupyter notebook
+
+Open the Project Notebook:-
+
+Open the "SignLanguage.ipynb" notebook.
+Run the Cells
+
+In case of data:-
+-data is available in "Data", "Sentence_Data_2_2" and "Sentence_Data_2_3"
+
+Execute the cells in the notebook sequentially.
+The notebook is divided into sections for data preprocessing, model training, and evaluation.
+Follow the instructions provided in each cell to understand the process and flow of the project.
+
+Using the Model:-
+-there are trained models available as "SignLanguage.h5", "Actions_3.h5" and "Actions_2_3.h5"
+You can use this trained model to make predictions on new sign language data by running the inference cells in the notebook or by using the provided script for real-time detection (if available).
